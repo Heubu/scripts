@@ -39,7 +39,7 @@ unzip opencv_contrib.zip
 cd opencv-3.2.0/
 mkdir build
 cd build/
-cmake -D WITH_TBB=ON -D INSTALL_C_EXAMPLES=ON -D WITH_EIGEN=OFF -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D WITH_OPENGL=ON -D OPENCV_EXTRA_MODULES_PATH=/home/danielh/Downloads/opencv_contrib-3.2.0/modules/ ..
+cmake -D WITH_TBB=ON -D INSTALL_C_EXAMPLES=ON -D WITH_EIGEN=OFF -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D WITH_OPENGL=ON -D OPENCV_EXTRA_MODULES_PATH=/home/<USERNAME>/Downloads/opencv_contrib-3.2.0/modules/ ..
 make
 sudo make install
 
